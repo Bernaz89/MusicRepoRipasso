@@ -33,11 +33,11 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Player_Health" ID="{301A72E8-F4B5-4C57-BF3E-26C87873178D}"/>
-							<Value>35</Value>
+							<Value>79</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Combat_1" ID="{5AD72CB9-4312-43C0-9132-891B40313893}"/>
+						<CurrentStateRef Name="Combat_3" ID="{AED89550-F525-49DE-9076-2E8B909B86E5}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Bad" ID="{66FB79B1-F319-4F09-9D25-01EBB57E790B}"/>
