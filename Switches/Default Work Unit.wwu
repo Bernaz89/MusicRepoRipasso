@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2DA60250-493E-4E37-817B-CFD7C2CAB9E9}" SchemaVersion="94">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{2DA60250-493E-4E37-817B-CFD7C2CAB9E9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="PlayerHealth" ID="{1CECC796-5D74-40BE-873A-76276F07E671}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Good" ID="{21827CAD-96EF-4647-9F9E-8B0B27D3471B}"/>
+						<Switch Name="Bad" ID="{66FB79B1-F319-4F09-9D25-01EBB57E790B}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Player_Health" ID="{301A72E8-F4B5-4C57-BF3E-26C87873178D}"/>
+						<Curve Name="" ID="{FA0E4C32-920F-49E6-B790-A11A92A0DAA5}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>50</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>1</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

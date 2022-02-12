@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A241DD20-BF58-4F74-A700-D77C8DDAE730}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A241DD20-BF58-4F74-A700-D77C8DDAE730}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Explore" ID="{5E17E8E3-23DA-4758-9E41-CCF09F6B93B3}">
+					<ChildrenList>
+						<Action Name="" ID="{C0A5B826-4667-43B2-BF25-2F1537D9D66C}" ShortID="643158905">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Combat_no" ID="{F6EA6D8F-83B8-40A9-B6E0-269627FC000B}" WorkUnitID="{D6B72337-EB15-4E43-A151-2298D9C4F5D1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Combat_1" ID="{6AB0F97C-AE37-4EA5-AB2C-42B4B9EBA9C7}">
+					<ChildrenList>
+						<Action Name="" ID="{04E0BF3C-4F62-42C4-BB2F-4185D12660B5}" ShortID="359808305">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Combat_1" ID="{5AD72CB9-4312-43C0-9132-891B40313893}" WorkUnitID="{D6B72337-EB15-4E43-A151-2298D9C4F5D1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Combat_2" ID="{9AB365CE-25F4-40DB-BC92-E0500CDDFF2E}">
+					<ChildrenList>
+						<Action Name="" ID="{343BD848-0F2B-4C03-AEF7-9D2D789B49E3}" ShortID="763023985">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Combat_2" ID="{F916FCBD-9F1B-457F-AFD9-299BFAC7815B}" WorkUnitID="{D6B72337-EB15-4E43-A151-2298D9C4F5D1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7852A76F-9966-4657-A17B-CA9A4AC1A051}" ShortID="279816321">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cymbal_Trigger" ID="{DBB719EB-3DB2-4BC2-874A-A998A3FF2116}" WorkUnitID="{746C1189-314F-418B-9D09-F47C38C3D3CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Combat_3" ID="{71989D6D-A5E8-4FF6-88CD-070898D10F60}">
+					<ChildrenList>
+						<Action Name="" ID="{ACAB7995-02E5-4D29-951B-4CC02AB9647B}" ShortID="1018415283">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Combat_3" ID="{AED89550-F525-49DE-9076-2E8B909B86E5}" WorkUnitID="{D6B72337-EB15-4E43-A151-2298D9C4F5D1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{91803A2B-204B-4220-B3DC-49D2D6925B6A}" ShortID="252294256">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cymbal_Trigger" ID="{DBB719EB-3DB2-4BC2-874A-A998A3FF2116}" WorkUnitID="{746C1189-314F-418B-9D09-F47C38C3D3CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Combat_end" ID="{6891FA49-150A-4250-919E-2BA52A256F33}">
+					<ChildrenList>
+						<Action Name="" ID="{742BD2A7-78A3-48D3-93DC-1F4DD26FFD27}" ShortID="595381286">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Combat_end" ID="{CF36C613-441D-46A8-A834-F5071A3FE9AC}" WorkUnitID="{D6B72337-EB15-4E43-A151-2298D9C4F5D1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PLay_Music" ID="{2FB5BD5A-55C3-4A8A-B1DA-8F33FDDA00CA}">
+					<ChildrenList>
+						<Action Name="" ID="{7F5CA088-19FC-414F-9000-4CFD6F059ED6}" ShortID="535947904">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music System+" ID="{D48C6B65-D2CC-45F2-89E5-9C76F4849885}" WorkUnitID="{0989DA9F-A15F-4AD3-A982-956EFAFCD50F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

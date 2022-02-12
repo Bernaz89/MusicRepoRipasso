@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FC6FAFED-376E-4227-A663-8E3FC6AF2203}" SchemaVersion="94">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{FC6FAFED-376E-4227-A663-8E3FC6AF2203}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test Music" ID="{43DF4A99-03F4-4EBF-B7A5-7C403EB4D5D8}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PLay_Music" ID="{2FB5BD5A-55C3-4A8A-B1DA-8F33FDDA00CA}" WorkUnitID="{A241DD20-BF58-4F74-A700-D77C8DDAE730}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Combat_1" ID="{6AB0F97C-AE37-4EA5-AB2C-42B4B9EBA9C7}" WorkUnitID="{A241DD20-BF58-4F74-A700-D77C8DDAE730}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Explore" ID="{5E17E8E3-23DA-4758-9E41-CCF09F6B93B3}" WorkUnitID="{A241DD20-BF58-4F74-A700-D77C8DDAE730}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Combat_2" ID="{9AB365CE-25F4-40DB-BC92-E0500CDDFF2E}" WorkUnitID="{A241DD20-BF58-4F74-A700-D77C8DDAE730}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Combat_end" ID="{6891FA49-150A-4250-919E-2BA52A256F33}" WorkUnitID="{A241DD20-BF58-4F74-A700-D77C8DDAE730}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Combat_3" ID="{71989D6D-A5E8-4FF6-88CD-070898D10F60}" WorkUnitID="{A241DD20-BF58-4F74-A700-D77C8DDAE730}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Player_Health" ID="{301A72E8-F4B5-4C57-BF3E-26C87873178D}"/>
+							<Value>35</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Combat_1" ID="{5AD72CB9-4312-43C0-9132-891B40313893}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Bad" ID="{66FB79B1-F319-4F09-9D25-01EBB57E790B}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

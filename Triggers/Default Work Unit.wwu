@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{746C1189-314F-418B-9D09-F47C38C3D3CA}" SchemaVersion="94">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{746C1189-314F-418B-9D09-F47C38C3D3CA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Cymbal_Trigger" ID="{DBB719EB-3DB2-4BC2-874A-A998A3FF2116}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>
