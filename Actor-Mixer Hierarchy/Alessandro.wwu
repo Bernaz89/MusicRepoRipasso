@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{169674DF-E41A-44DB-BDF1-DFF95FB57EAA}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Alessandro" ID="{169674DF-E41A-44DB-BDF1-DFF95FB57EAA}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Sound Name="ODIO_PURO" ID="{8E008D08-1AA9-4909-835A-E825CF4B685B}" ShortID="829992478">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1C9D6B48-DD7D-4F09-BEC5-44150356161D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1BA3B2F9-931F-43FE-99F9-3790E414616F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Tone Generator" ID="{18537B0E-2B06-4D7C-8849-17C14783936A}" ShortID="632254464" PluginName="Wwise Tone Generator" CompanyID="0" PluginID="102">
+							<PropertyList>
+								<Property Name="StartFreq" Type="Real32" Value="400"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Tone Generator" ID="{18537B0E-2B06-4D7C-8849-17C14783936A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
